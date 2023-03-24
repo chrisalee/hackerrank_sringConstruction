@@ -15,3 +15,9 @@ function stringConstruction(s) {
     console.log('cost: ', cost)
     return cost;
 }
+
+
+*****************************************
+function stringConstruction(s) {
+   return new Set(s).size;
+}
